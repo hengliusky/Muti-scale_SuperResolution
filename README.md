@@ -18,7 +18,7 @@ reveal that the proposed model is superior to the state-of-the-art methods.</br>
 ## 2. The network structure we proposed
 <br>The detailed architecture of the MSDEPC network is shown below.</br>
 
-<br>The proposed MSDEPC model: joint input of LR image and edge (red), multiscale encoder-decoder learning (yellow), multi-scale HR image and edge prediction (green),
+<br>The proposed MSDEPC model: joint input of LR image and edge (red), multi-scale encoder-decoder learning (yellow), multi-scale HR image and edge prediction (green),
 and the total loss (blue).</br>
 
 <br>The structure of the encode-decoder is shown below</br>
