@@ -64,18 +64,18 @@ deconvolution operation.</br>
 <br>./model/mutiscale_rect2_iter_205000.caffemodel</br>
 
 ### Test
-The benchmark test images included the BSD100, Set 5 and Set 14 data sets.
-
+<br>The benchmark test images included the BSD100, Set 5 and Set 14 data sets.</br>
 **Test network performance based on multiple losses**
-Test code: ./test/Mutiloss/mutiscale3_val.m
-Test network: ./test/Mutiloss/test.prototxt
+<br>Test code: ./test/Mutiloss/mutiscale3_val.m</br>
+<br>Test network: ./test/Mutiloss/test.prototxt</br>
 
 **Test network performance based on edge losses**
-Test code: ./test/Edge/test_edge.m
-Test network: ./test/Edge/test_edge1.prototxt
+<br>Test code: ./test/Edge/test_edge.m</br>
+<br>Test network: ./test/Edge/test_edge1.prototxt</br>
 
 **Test network performance based on multiple losses**
-Test code: ./test/Rect/test_rect.m
-Test network: ./test/Rect/test_rect1.prototxt
+<br>Test code: ./test/Rect/test_rect.m</br>
+<br>Test network: ./test/Rect/test_rect1.prototxt</br>
+
 <br>You can select the corresponding model from the ./model folder for testing, or you can get the network model to 
 test by training yourself.</br>
