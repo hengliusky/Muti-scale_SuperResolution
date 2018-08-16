@@ -65,7 +65,6 @@ deconvolution operation.</br>
 
 ### Test
 <br>The benchmark test images included the BSD100, Set 5 and Set 14 data sets.</br>
-
 **Test network performance based on multiple losses**
 <br>Test code: ./test/Mutiloss/mutiscale3_val.m</br>
 <br>Test network: ./test/Mutiloss/test.prototxt</br>
@@ -75,6 +74,5 @@ deconvolution operation.</br>
 **Test network performance based on multiple losses**
 <br>Test code: ./test/Rect/test_rect.m</br>
 <br>Test network: ./test/Rect/test_rect1.prototxt</br>
-
 <br>You can select the corresponding model from the ./model folder for testing, or you can get the network model to 
 test by training yourself.</br>
