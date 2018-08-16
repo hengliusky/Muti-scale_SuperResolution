@@ -64,7 +64,7 @@ deconvolution operation.</br>
 <br>./model/mutiscale_rect2_iter_205000.caffemodel</br>
 
 ### Test
-<br>The benchmark test images included the BSD100, Set 5 and Set 14 data sets.</br>
+The benchmark test images included the BSD100, Set 5 and Set 14 data sets.
 **Test network performance based on multiple losses**
 <br>Test code: ./test/Mutiloss/mutiscale3_val.m
 Test network: ./test/Mutiloss/test.prototxt</br>
