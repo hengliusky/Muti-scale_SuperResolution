@@ -54,3 +54,11 @@ deconvolution operation.</br>
 <br> /path_to_caffe/build/tools/caffe train -solver ./caffe_file/Edge/mutiscale_solver_edge1.prototxt -gpu [gpu id]</br> 
 <br>**Training a single image loss network**</br>
 <br> /path_to_caffe/build/tools/caffe train -solver ./caffe_file/Rect/mutiscale_solver_rect2.prototxt -gpu [gpu id]</br>
+
+### Model
+**Model obtained through multiple loss training**
+<br>./model/mutiscale_iter_223500.caffemodel</br>
+**Model obtained through edge loss training**
+<br>./model/mutiscale_edge1_iter_154500.caffemodel</br>
+**Model obtained through image loss training**
+<br>./model/mutiscale_rect2_iter_205000.caffemodel</br>
