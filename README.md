@@ -42,7 +42,7 @@ deconvolution operation.</br>
 
 ### Data enhancement and generation
 **Data enhancement**
- ./matlab/data augment.m Enhances the image, including rotation, scaling, and flipping.
+ <br>./matlab/data augment.m Enhances the image, including rotation, scaling, and flipping.</br>
 **Data generation**
- ./matlab/generate_train.m Convert training images to HDF5 files
- ./matlab/generate_train.m Convert testing images to HDF5 files
+ <br>./matlab/generate_train.m Convert training images to HDF5 files</br>
+ <br>./matlab/generate_train.m Convert testing images to HDF5 files</br>
