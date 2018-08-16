@@ -32,7 +32,7 @@ deconvolution operation.</br>
 ### Requirements
 <br>MATLAB R2014a</br>
 <br>CUDA 8.0 and Cudnn 5.1</br>
-<br>caffe</br>
+<br>Caffe</br>
 
 ### Computer configuration
 <br>Ubuntu 14.04 LTS</br>
