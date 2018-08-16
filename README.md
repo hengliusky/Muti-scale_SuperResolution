@@ -88,3 +88,5 @@ test by training yourself.</br>
 ### Performance comparison
 ![image](https://github.com/hengliusky/Muti-scale-SuperResolution/blob/master/imgs/result1.png)
 ![image](https://github.com/hengliusky/Muti-scale-SuperResolution/blob/master/imgs/result2.png)
+Comparison of visual and PSNR for images '148026' and '106024' from BSD100 by (a) SRCNN-L, (b) VDSR, and (c) the
+proposed - MSDEPC, respectively.
