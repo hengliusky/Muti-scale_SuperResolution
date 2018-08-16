@@ -76,10 +76,13 @@ deconvolution operation.</br>
 **Test network performance based on multiple losses**
 <br>Test code: ./test/Rect/test_rect.m</br>
 <br>Test network: ./test/Rect/test_rect1.prototxt</br>
-
 <br>You can select the corresponding model from the ./model folder for testing, or you can get the network model to 
 test by training yourself.</br>
 
 ### Comparison standard
 <br>We convert RGB images to YCBCR images and only use the Y channel for training and testing.</br>
 <br>The PSNR and SSIM of the image are calculated by comparing the Y channel of the reconstructed image with the Y channel of the original image. The higher the value, the higher the quality of the image reconstruction.</br>
+
+### Performance comparison
+![image](https://github.com/hengliusky/Muti-scale-SuperResolution/blob/master/imgs/result1.png)
+![image](https://github.com/hengliusky/Muti-scale-SuperResolution/blob/master/imgs/result2.png)
