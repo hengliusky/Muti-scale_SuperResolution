@@ -22,7 +22,7 @@ reveal that the proposed model is superior to the state-of-the-art methods.</br>
 and the total loss (blue).</br>
 
 <br>The structure of the encode-decoder is shown below</br>
-
+![image](https://github.com/hengliusky/Muti-scale-SuperResolution/blob/master/imgs/encode-decode.png)
 <br>Single scale deep symmetrical encoder-decoder: the network only consists of
 convolutional and deconvolutional layers; PReLU layer is followed after convolution or
 deconvolution operation.</br>
