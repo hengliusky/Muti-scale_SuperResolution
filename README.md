@@ -48,9 +48,9 @@ deconvolution operation.</br>
  <br>./matlab/generate_train.m Convert testing images to HDF5 files</br>
 
 ### Training
-<br>Training multiple loss networks</br>
+<br>**Training multiple loss networks**</br>
 <br> /path_to_caffe/build/tools/caffe train -solver ./caffe_file/Mutiloss/mutiscale_solver.prototxt -gpu [gpu id]</br>
-<br>Training a single Edge loss network</br>
+<br>**Training a single Edge loss network**</br>
 <br> /path_to_caffe/build/tools/caffe train -solver ./caffe_file/Edge/mutiscale_solver_edge1.prototxt -gpu [gpu id]</br> 
-<br>Training a single image loss network</br>
+<br>**Training a single image loss network**</br>
 <br> /path_to_caffe/build/tools/caffe train -solver ./caffe_file/Rect/mutiscale_solver_rect2.prototxt -gpu [gpu id]</br>
