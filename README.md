@@ -58,8 +58,10 @@ deconvolution operation.</br>
 ### Model
 **Model obtained through multiple loss training**
 <br>./model/mutiscale_iter_223500.caffemodel</br>
+
 **Model obtained through edge loss training**
 <br>./model/mutiscale_edge1_iter_154500.caffemodel</br>
+
 **Model obtained through image loss training**
 <br>./model/mutiscale_rect2_iter_205000.caffemodel</br>
 
