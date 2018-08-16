@@ -1,0 +1,27 @@
+# The train/test net protocol buffer definition
+net: "examples/mutiscale3/deploy_mutiscale.prototxt"
+test_iter: 514
+# Carry out testing every 500 training iterations.
+test_interval: 2943
+# The base learning rate, momentum and the weight decay of the network.
+base_lr: 0.00001
+momentum: 0.9
+weight_decay: 0.0001
+clip_gradients: 1
+# The learning rate policy
+lr_policy: "fixed"
+type: "Adam"
+#lr_policy: "step"
+#gamma: 0.1
+#stepsize: 100000
+# Display every 100 iterations
+display: 100
+# The maximum number of iterations
+max_iter: 1000000
+# snapshot intermediate results
+snapshot: 2943
+snapshot_prefix: "examples/mutiscale3/mutiscale"
+# solver mode: CPU or GPU
+# type: "Adam"
+solver_mode: GPU
+
