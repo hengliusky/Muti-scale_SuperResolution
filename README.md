@@ -27,3 +27,15 @@ and the total loss (blue).</br>
 convolutional and deconvolutional layers; PReLU layer is followed after convolution or
 deconvolution operation.</br>
 
+## 3.Usage
+
+### Requirements
+<br>MATLAB R2014a</br>
+<br>CUDA 8.0 and Cudnn 5.1</br>
+<br>caffe</br>
+
+### Computer configuration
+<br>Ubuntu 14.04 LTS</br>
+<br>Intel Xeon E5-2620</br>
+<br>Memory 64GB</br>
+<br>Nvidia GeForce GTX 1080TI</br>
