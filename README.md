@@ -90,3 +90,7 @@ test by training yourself.</br>
 ![image](https://github.com/hengliusky/Muti-scale-SuperResolution/blob/master/imgs/result2.png)
 Comparison of visual and PSNR for images '148026' and '106024' from BSD100 by (a) SRCNN-L, (b) VDSR, and (c) the
 proposed - MSDEPC, respectively.
+
+![image](https://github.com/hengliusky/Muti-scale-SuperResolution/blob/master/imgs/table.png)
+The mean PSNR (dB) (left numbers) and SSIM (right numbers) for different
+methods trained with 91-images. Best results are indicated in Bold.
