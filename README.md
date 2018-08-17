@@ -78,11 +78,12 @@ scale visual recognition challenge, Int. J. Comput. Vision 115 (3) (2015)
 Comparison of visual and PSNR for images '148026' and '106024' from BSD100 by (a) SRCNN-L, (b) VDSR, and (c) the
 proposed - MSDEPC, respectively.
 
+![image](https://github.com/hengliusky/Muti-scale_SuperResolution/blob/master/imgs/depth-img.png)
+Super-resolved (4×) images for depth data from New Tsukuba by (a) Bicubic, (b) SRCNN-L, and (c) the proposed -
+MSDEPC, respectively.
+
 ![image](https://github.com/hengliusky/Muti-scale-SuperResolution/blob/master/imgs/table.png)
 The mean PSNR (dB) (left numbers) and SSIM (right numbers) for different
 methods trained with 91-images. Best results are indicated in Bold.
 
-![image](https://github.com/hengliusky/Muti-scale_SuperResolution/blob/master/imgs/depth-img.png)
-Super-resolved (4×) images for depth data from New Tsukuba by (a) Bicubic, (b) SRCNN-L, and (c) the proposed -
-MSDEPC, respectively.
 <br>For more details, please refer to the paper.</br>
