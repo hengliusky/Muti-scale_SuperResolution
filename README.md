@@ -29,21 +29,23 @@ deconvolution operation.</br>
 
 ## 3.Usage
 
-### Requirements
+### 1)Requirements
 <br>Ubuntu 14.04 LTS</br>
 <br>MATLAB R2014a</br>
 <br>CUDA 8.0 and Cudnn 5.1</br>
 <br>Caffe</br>
 <br>Nvidia TITAN X</br>
 
-### Data enhancement and generation
+### 2)Dataset and data processing
+**Dataset**
+
 **Data enhancement**
  <br>./matlab/data augment.m Enhances the image, including rotation, scaling, and flipping.</br>
 **Data generation**
  <br>./matlab/generate_train.m Convert training images to HDF5 files</br>
  <br>./matlab/generate_train.m Convert testing images to HDF5 files</br>
 
-### Training
+### 3）Training
 <br>**Training multiple loss networks**</br>
 <br> /path_to_caffe/build/tools/caffe train -solver ./caffe_file/Mutiloss/mutiscale_solver.prototxt -gpu [gpu id]</br>
 <br>**Training a single Edge loss network**</br>
