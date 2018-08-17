@@ -38,9 +38,10 @@ deconvolution operation.</br>
 
 ### 2)Dataset and data processing
 **Dataset**
+
 Our network utilzes two different dataset to train the network:
- <br>① 91-images Enhance the 91-images dataset to train multi-scale deep network </br>
- <br>② ImageNet Extract 50,000 images from imagenet to train  multi-scale deep network </br>
+ <br>① *91-images* Enhance the 91-images dataset to train multi-scale deep network </br>
+ <br>② *ImageNet* Extract 50,000 images from imagenet to train  multi-scale deep network </br>
 **Data enhancement**
  <br>./matlab/data augment.m Enhances the image, including rotation, scaling, and flipping.</br>
 **Data generation**
