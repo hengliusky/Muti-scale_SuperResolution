@@ -15,13 +15,13 @@ as Set14 and BSD100 - natural images, Middlebury and New Tsukuba -
 depth images. The evaluations based on both PSNR and visual perception
 reveal that the proposed model is superior to the state-of-the-art methods.</br>
 
-## 2. The network structure we proposed
+## 2. The proposed multi-scale deep network
 <br>The detailed architecture of the MSDEPC network is shown below.</br>
 ![image](https://github.com/hengliusky/Muti-scale-SuperResolution/blob/master/imgs/Net.png)
 <br>The proposed MSDEPC model: joint input of LR image and edge (red), multi-scale encoder-decoder learning (yellow), multi-scale HR image and edge prediction (green),
 and the total loss (blue).</br>
 
-<br>The structure of the encode-decoder is shown below</br>
+<br>The structure of the single-scale encode-decoder is shown in below</br>
 ![image](https://github.com/hengliusky/Muti-scale-SuperResolution/blob/master/imgs/encode-decode.png)
 <br>Single scale deep symmetrical encoder-decoder: the network only consists of
 convolutional and deconvolutional layers; PReLU layer is followed after convolution or
@@ -30,15 +30,11 @@ deconvolution operation.</br>
 ## 3.Usage
 
 ### Requirements
+<br>Ubuntu 14.04 LTS</br>
 <br>MATLAB R2014a</br>
 <br>CUDA 8.0 and Cudnn 5.1</br>
 <br>Caffe</br>
-
-### Computer configuration
-<br>Ubuntu 14.04 LTS</br>
-<br>Intel Xeon E5-2620</br>
-<br>Memory 64GB</br>
-<br>Nvidia GeForce GTX 1080TI</br>
+<br>Nvidia TITAN X</br>
 
 ### Data enhancement and generation
 **Data enhancement**
