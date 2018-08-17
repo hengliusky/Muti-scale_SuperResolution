@@ -85,7 +85,7 @@ Super-resolved (4×) images for depth data from New Tsukuba by (a) Bicubic, (b) 
 MSDEPC, respectively.
 
 ![image](https://github.com/hengliusky/Muti-scale-SuperResolution/blob/master/imgs/table.png)
-The mean PSNR (dB) (left numbers) and SSIM (right numbers) for different
-methods trained with 91-images. Best results are indicated in Bold.
+<br>The mean PSNR (dB) (left numbers) and SSIM (right numbers) for different
+methods trained with 91-images. Best results are indicated in Bold.</br>
 
 <br>For more details, please refer to the paper.</br>
