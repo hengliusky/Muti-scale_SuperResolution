@@ -36,7 +36,7 @@ deconvolution operation.</br>
 <br>Caffe</br>
 <br>Nvidia TITAN X</br>
 
-### 2)Dataset and data processing
+### 2)Dataset
 * **Dataset**
 
   Our network utilzes two different dataset to train the network:
