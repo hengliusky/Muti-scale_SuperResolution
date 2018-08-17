@@ -69,20 +69,7 @@ scale visual recognition challenge, Int. J. Comput. Vision 115 (3) (2015)
   <br>./model/mutiscale_rect2_iter_205000.caffemodel</br>
 
 ### 5) Test
-<br>The benchmark test images included the BSD100, Set 5 and Set 14 data sets.</br>
-**Test network performance based on multiple losses**
-<br>Test code: ./test/Mutiloss/mutiscale3_val.m</br>
-<br>Test network: ./test/Mutiloss/test.prototxt</br>
-
-**Test network performance based on edge losses**
-<br>Test code: ./test/Edge/test_edge.m</br>
-<br>Test network: ./test/Edge/test_edge1.prototxt</br>
-
-**Test network performance based on multiple losses**
-<br>Test code: ./test/Rect/test_rect.m</br>
-<br>Test network: ./test/Rect/test_rect1.prototxt</br>
-<br>You can select the corresponding model from the ./model folder for testing, or you can get the network model to 
-test by training yourself.</br>
+  You can select the corresponding model from the ./model folder and use the script in ./test for your images test.
 
 ### Comparison standard
 <br>We convert RGB images to YCBCR images and only use the Y channel for training and testing.</br>
