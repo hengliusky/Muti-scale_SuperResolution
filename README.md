@@ -60,17 +60,15 @@ scale visual recognition challenge, Int. J. Comput. Vision 115 (3) (2015)
 * **Training a single image loss network**
   <br> /path_to_caffe/build/tools/caffe train -solver ./caffe_file/Rect/mutiscale_solver_rect2.prototxt -gpu [gpu id]</br>
 
-### Model
-**Model obtained through multiple loss training**
-<br>./model/mutiscale_iter_223500.caffemodel</br>
+### 4) Model
+* **Model obtained through multiple loss training**
+  <br>./model/mutiscale_iter_223500.caffemodel</br>
+* **Model obtained through edge loss training**
+  <br>./model/mutiscale_edge1_iter_154500.caffemodel</br>
+* **Model obtained through image loss training**
+  <br>./model/mutiscale_rect2_iter_205000.caffemodel</br>
 
-**Model obtained through edge loss training**
-<br>./model/mutiscale_edge1_iter_154500.caffemodel</br>
-
-**Model obtained through image loss training**
-<br>./model/mutiscale_rect2_iter_205000.caffemodel</br>
-
-### Test
+### 5) Test
 <br>The benchmark test images included the BSD100, Set 5 and Set 14 data sets.</br>
 **Test network performance based on multiple losses**
 <br>Test code: ./test/Mutiloss/mutiscale3_val.m</br>
