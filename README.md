@@ -40,8 +40,12 @@ deconvolution operation.</br>
 **Dataset**
 
 Our network utilzes two different dataset to train the network:
- <br>① *91-images* Enhance the 91-images dataset to train multi-scale deep network </br>
- <br>② *ImageNet* Extract 50,000 images from imagenet to train  multi-scale deep network </br>
+ <br>① *91-images* Enhance the 91-images dataset to train multi-scale deep network (Refer to:R. Timofte, V. De Smet, L. Van Gool, A+: Adjusted anchored neigh-borhood regression for fast super-resolution, in: Proc. IEEE Asian Conf.
+Comput. Vis., 2014, pp. 111-126.)</br>
+ <br>② *ImageNet* Extract 50,000 images from imagenet to train  multi-scale deep network (Refer to:O. Russakovsky, J. Deng, H. Su, J. Krause, S. Satheesh, S. Ma,
+Z. Huang, A. Karpathy, A. Khosla, M. Bernstein, et al., Imagenet large
+scale visual recognition challenge, Int. J. Comput. Vision 115 (3) (2015)
+211-252.)</br>
 **Data enhancement**
  <br>./matlab/data augment.m Enhances the image, including rotation, scaling, and flipping.</br>
 **Data generation**
