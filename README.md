@@ -16,12 +16,12 @@ depth images. The evaluations based on both PSNR and visual perception
 reveal that the proposed model is superior to the state-of-the-art methods.</br>
 
 ## 2. The proposed multi-scale deep network
-<br>The detailed architecture of the MSDEPC network is shown below.</br>
+<br>The detailed architecture of the MSDEPC network is shown in the below.</br>
 ![image](https://github.com/hengliusky/Muti-scale-SuperResolution/blob/master/imgs/Net.png)
 <br>The proposed MSDEPC model: joint input of LR image and edge (red), multi-scale encoder-decoder learning (yellow), multi-scale HR image and edge prediction (green),
 and the total loss (blue).</br>
 
-<br>The structure of the single-scale encode-decoder is shown in below</br>
+<br>The structure of the single-scale encode-decoder is shown in the below</br>
 ![image](https://github.com/hengliusky/Muti-scale-SuperResolution/blob/master/imgs/encode-decode.png)
 <br>Single scale deep symmetrical encoder-decoder: the network only consists of
 convolutional and deconvolutional layers; PReLU layer is followed after convolution or
@@ -71,11 +71,8 @@ scale visual recognition challenge, Int. J. Comput. Vision 115 (3) (2015)
 ### 5) Test
   You can select the corresponding model from the ./model folder and use the script in ./test for your images test.
 
-### Comparison standard
-<br>We convert RGB images to YCBCR images and only use the Y channel for training and testing.</br>
-<br>The PSNR and SSIM of the image are calculated by comparing the Y channel of the reconstructed image with the Y channel of the original image. The higher the value, the higher the quality of the image reconstruction.</br>
-
-### Performance comparison
+### comparison
+   We convert RGB images to YCbCr and only use the Y channel for performance comparisions. PSNR and SSIM are objective evaluation indicators. 
 ![image](https://github.com/hengliusky/Muti-scale-SuperResolution/blob/master/imgs/result1.png)
 ![image](https://github.com/hengliusky/Muti-scale-SuperResolution/blob/master/imgs/result2.png)
 Comparison of visual and PSNR for images '148026' and '106024' from BSD100 by (a) SRCNN-L, (b) VDSR, and (c) the
@@ -84,3 +81,6 @@ proposed - MSDEPC, respectively.
 ![image](https://github.com/hengliusky/Muti-scale-SuperResolution/blob/master/imgs/table.png)
 The mean PSNR (dB) (left numbers) and SSIM (right numbers) for different
 methods trained with 91-images. Best results are indicated in Bold.
+
+
+<br>For more details, please refer to the paper.</br>
